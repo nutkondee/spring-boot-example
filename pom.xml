@@ -35,6 +35,11 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -51,7 +56,8 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+
+
 		<!-- An embedded Tomcat web server. Remove or comment this out to run on a Tomcat
 		     server (for example, on AWS Elastic Beanstalk)-->   
 		<dependency>
