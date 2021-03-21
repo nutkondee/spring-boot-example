@@ -27,6 +27,7 @@ public class IndexController {
         Date now = new Date();
         String dateStr = dateFormat.format( now );
         model.addAttribute("time", dateStr);
+        model.addAttribute("version", 1);
         return "index";
     }
     @RequestMapping("/welcome")

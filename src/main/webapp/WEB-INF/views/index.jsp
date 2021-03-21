@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Spring Example Index JSP Web page</title>
+<title>Spring Example Index JSP Web page version ${version}</title>
 </head>
 <body>
    <h2>
-     Spring Example Index JSP web page
+     Spring Example Index JSP web page version ${version}
    </h2>
    <p>
    This is an example of an index (root) web page, implemented as a Java Server Page.
