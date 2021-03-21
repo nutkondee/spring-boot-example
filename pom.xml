@@ -6,7 +6,7 @@
 	<groupId>example</groupId>
 	<artifactId>spring-boot-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>spring-boot-example</name>
 	<description>An example of a simple spring boot application</description>
